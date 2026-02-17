@@ -1,0 +1,92 @@
+{
+  "steps": [
+    [
+      "plugins"
+    ],
+    [
+      "questions",
+      "itemparams",
+      "courses",
+      "localdata"
+    ]
+  ],
+  "plugins": {
+    "needed":
+    [
+      "https://github.com/Wunderbyte-GmbH/moodle-local_wunderbyte_table/archive/refs/heads/MOODLE_401_STABLE.zip",
+      "https://github.com/Wunderbyte-GmbH/moodle-local_catquiz/archive/refs/heads/main.zip",
+      "https://github.com/Wunderbyte-GmbH/moodle-mod_adaptivequiz/archive/refs/tags/wb-0.9.0-rc2.zip",
+      "https://github.com/Wunderbyte-GmbH/moodle-adaptivequizcatmodel_catquiz/archive/refs/tags/1.0.2.zip",
+      "https://github.com/branchup/moodle-filter_shortcodes/archive/refs/heads/master.zip"      
+    ],
+    "subplugins": {
+      "adaptivequizcatmodel": "/mod/adaptivequiz/catmodel"
+    }
+  },
+  "questions": {
+    "path": "questions"
+  },
+  "itemparams": {
+    "path": "itemparams",
+    "matcher": {
+      "name": "\\local_catquiz\\importer\\testitemimporter",
+      "delimiter_name": "semicolon",
+      "encoding": "utf-8",
+      "dateparseformat": null
+    }
+  },
+  "courses": {
+    "path": "courses",
+    "translator": [{
+      "table": "local_catquiz_tests",
+      "matchingcolumn": "courseid",
+      "changingcolumn": "json",
+      "key": "catquiz_courses_"
+    }]
+  },
+  "localdata": {
+    "path": "localdata",
+    "translator": {
+      "sql": "SELECT aq.id as componentid, aq.course as courseid, aq.name as name FROM {adaptivequiz} aq WHERE aq.id = :componentid",
+      "delimiter": ";",
+      "line_break": "\n",
+      "catscalename": "ALiSe Mathematik",
+      "changingcolumn": {
+        "courseid": {
+          "nested": false
+        },
+        "componentid": {
+          "nested": false
+        },
+        "json": {
+          "nested": true,
+          "keys": [
+            "catquiz_courses",
+            "catquiz_group",
+            "catquiz_scalereportcheckbox",
+            "catquiz_subscalecheckbox",
+            "enrolment_message_checkbox",
+            "feedback_scaleid_limit_lower",
+            "feedback_scaleid_limit_upper",
+            "feedbackeditor_scaleid",
+            "feedbacklegend_scaleid",
+            "wb_colourpicker"
+          ]
+        },
+        "catscaleid": {
+          "nested": false
+        }
+      },
+      "changingcourseids": "catquiz_courses",
+      "duplicatecheck": [
+        "componentid",
+        "courseid"
+      ]
+    },
+    "matcher": {
+      "delimiter_name": "semicolon",
+      "encoding": "utf-8",
+      "dateparseformat": null
+    }
+  }
+}

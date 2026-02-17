@@ -1,0 +1,108 @@
+﻿id;catscalelabel;name
+91;ALiSe_ALiSe Mathematik;ALiSe Mathematik
+92;ALiSe_Ma-A;Ma-A: Grundlegende Konzepte und Operatoren beim Rechnen
+93;ALiSe_Ma-B;Ma-B: Mengenlehre und Logik
+94;ALiSe_Ma-C;Ma-C: Terme und (Un-)Gleichungen
+95;ALiSe_Ma-D;Ma-D: Funktionen und deren Eigenschaften
+96;ALiSe_Ma-E;Ma-E: Geometrie
+97;ALiSe_Ma-F;Ma-F: Trigonometrie
+98;ALiSe_Ma-G;Ma-G: Differenzialrechnung
+99;ALiSe_Ma-H;Ma-H: Integralrechnung
+100;ALiSe_Ma-J;Ma-J: Lineare Gleichungssysteme
+101;ALiSe_Ma-K;Ma-K: Vektorrechnung
+102;ALiSe_Ma-L;Ma-L: Statistik und Wahrscheinlichkeitsrechnung
+103;ALiSe_Ma-A01;Ma-A01: Grundrechenarten Punkt- und Strichrechnung
+104;ALiSe_Ma-A02;"Ma-A02: Rechnen mit Klammern, Prioritäten der Operatoren"
+105;ALiSe_Ma-A03;"Ma-A03: Assoziativ-, Kommutativ- und Distributivgesetz anwenden (geschicktes Rechnen)"
+106;ALiSe_Ma-A04;Ma-A04: positiv und negativer Zahlenraum
+107;ALiSe_Ma-A05;Ma-A05: Dezimalbrüche
+108;ALiSe_Ma-A06;"Ma-A06: Proportionale und antiproportionale Zuordnungen, inklusive Dreisatz"
+109;ALiSe_Ma-A07;Ma-A07: Bruchrechnen
+110;ALiSe_Ma-A08;Ma-A08: Periodische Dezimalbrüche
+111;ALiSe_Ma-A09;Ma-A09: Prozentrechnung
+112;ALiSe_Ma-A10;Ma-A10: Zinseszins-Rechnung und exponentielles Wachstum
+113;ALiSe_Ma-A11;Ma-A11: Einheitenumrechnung und Zehnerpotenz-Schreibweise
+114;ALiSe_Ma-B01;Ma-B01: Intervalle
+115;ALiSe_Ma-B02;Ma-B02: Mengen und Zahlenbereiche
+116;ALiSe_Ma-B03;Ma-B03: Mengenoperatoren
+117;ALiSe_Ma-B04;Ma-B04: Logik und Aussagenlehre
+118;ALiSe_Ma-C01;Ma-C01: Binomische Formeln
+119;ALiSe_Ma-C02;Ma-C02: Äquivalenzumformungen
+120;ALiSe_Ma-C03;Ma-C03: lineare und quadratische Gleichungen
+121;ALiSe_Ma-C04;Ma-C04: Rechnen mit Potenzen
+122;ALiSe_Ma-C05;Ma-C05: Gleichungen mit Parametern
+123;ALiSe_Ma-C06;Ma-C06: Bruchgleichungen
+124;ALiSe_Ma-C07;Ma-C07: einfache Wurzelgleichungen
+125;ALiSe_Ma-C08;Ma-C08: einfache Exponentialgleichungen und Logarithmen
+126;ALiSe_Ma-C09;Ma-C09: Ungleichungen
+127;ALiSe_Ma-C10;Ma-C10: Rechnen mit Beträgen
+128;ALiSe_Ma-D01;"Ma-D01: Definition, Funktionswerte, typische Formen und Parameter"
+129;ALiSe_Ma-D02;Ma-D02: Monotonie und asymptotisches Verhalten
+130;ALiSe_Ma-D03;Ma-D03: Symmetrien
+131;ALiSe_Ma-D04;Ma-D04: lokale/globale Extrema
+132;ALiSe_Ma-D05;Ma-D05: Periodizität
+133;ALiSe_Ma-D06;Ma-D06: Nullstellen
+134;ALiSe_Ma-D07;Ma-D07: Definitionsbereich und Wertebereich
+135;ALiSe_Ma-D08;Ma-D08: Schnittpunkte
+136;ALiSe_Ma-D09;Ma-D09: Stetigkeit
+137;ALiSe_Ma-D10;Ma-D10: Grenzwertbetrachtung
+138;ALiSe_Ma-D11;Ma-D11: Umkehrfunktionen
+139;ALiSe_Ma-D12;Ma-D12: Parameter und Funktionsscharen
+140;ALiSe_Ma-D13;Ma-D13: Transformation von Graphen und Funktionen
+141;ALiSe_Ma-D14;Ma-D14: Kurvendiskussion und Steckbriefaufgaben
+142;ALiSe_Ma-E01;Ma-E01: Winkelmaße
+143;ALiSe_Ma-E02;Ma-E02: Winkelsummen
+144;ALiSe_Ma-E03;Ma-E03: Merkmale spezieller Flächen und Körper
+145;ALiSe_Ma-E04;Ma-E04: Umfang und Flächeninhalt
+146;ALiSe_Ma-E05;Ma-E05: Volumen und Oberflächen von Standardkörpern
+147;ALiSe_Ma-E06;"Ma-E06: Satz des Pythagoras, Kathetensatz, Höhensatz und Satz des Thales"
+148;ALiSe_Ma-E07;Ma-E07: besondere Schnittpunkte im Dreieck
+149;ALiSe_Ma-E08;Ma-E08: Strahlensätze und Ähnlichkeit
+178;ALiSe_Ma-F01;"Ma-F01: Seitenverhältnisse im rechtwinkligen Dreieck, Sinus, Kosinus, Tangens"
+179;ALiSe_Ma-F02;Ma-F02: Sinus und Kosinus am Einheitskreis
+180;ALiSe_Ma-F03;Ma-F03: trigonometrischer Pythagoras
+181;ALiSe_Ma-F04;Ma-F04: spezielle Sinuswerte
+196;ALiSe_Ma-F05;Ma-F05: Sinus- und Kosinussatz
+150;ALiSe_Ma-G01;Ma-G01: Ableitung als Anstieg und Tangentengleichung
+151;ALiSe_Ma-G02;Ma-G02: Ableitung der bekannten Funktionen einschl: Sinus und Kosinus
+152;ALiSe_Ma-G03;"Ma-G03: Ableitungsregeln, insbesondere auch Produkt- und Kettenregel"
+153;ALiSe_Ma-G04;Ma-G04: Extremwertprobleme
+154;ALiSe_Ma-H01;Ma-H01: (elementare) Stammfunktionen
+155;ALiSe_Ma-H02;"Ma-H02: Integrationsregeln, insbesondere Substitutionsregel und partielle Integration"
+156;ALiSe_Ma-H03;"Ma-H03: Bestimmtes Integral, Berechnung von Integralwerten"
+157;ALiSe_Ma-H04;"Ma-H04: Flächeninhalt, (Rotations-) Volumen"
+158;ALiSe_Ma-J01;Ma-J01: Aufstellen eines LGS
+159;ALiSe_Ma-J02;Ma-J02: Schreibweise und Darstellungen von Lösungsmengen
+160;ALiSe_Ma-J03;Ma-J03: Lösungen verifizieren
+161;ALiSe_Ma-J04;Ma-J04: Lösen eines LGS im Umfang bis zu 3x3 mit dem Gauß-Algorithmus
+162;ALiSe_Ma-J05;Ma-J05: LGS mit Parameter
+163;ALiSe_Ma-J06;Ma-J06: Lösbarkeit (mit und ohne Parameter) / Lineare Unabhängigkeit 
+164;ALiSe_Ma-J07;Ma-J07: LGS in Matrix-Schreibweise
+197;ALiSe_Ma-J08;Ma-J08: Rechnen mit Matritzen
+165;ALiSe_Ma-K01;"Ma-K01: Vektorrechnung (Addition, Skalarprodukt, Multiplikation mit Skalaren)"
+166;ALiSe_Ma-K02;Ma-K02: Orts- und Verbindungsvektoren im orthonormierten Koordinatensystem
+167;ALiSe_Ma-K03;Ma-K03: Linearkombinationen
+168;ALiSe_Ma-K04;Ma-K04: lineare (Un-)Abhängigkeit von Vektoren
+169;ALiSe_Ma-K05;Ma-K05: Geradengleichung und Lageproblem im ℝ³
+170;ALiSe_Ma-K06;Ma-K06: Skalarprodukt
+171;ALiSe_Ma-K07;Ma-K07: Distanz/Länge (euklidische Metrik)
+172;ALiSe_Ma-K08;Ma-K08: Projektion und Orthogonalität 
+173;ALiSe_Ma-K09;Ma-K09: Winkel
+174;ALiSe_Ma-K10;Ma-K10: Kreisgleichung
+175;ALiSe_Ma-K11;Ma-K11: Ebenen in Parameterform
+176;ALiSe_Ma-K12;Ma-K12: Kreuzprodukt
+177;ALiSe_Ma-K13;Ma-K13: Ebenen in Koordinatenform
+182;ALiSe_Ma-L01;"Ma-L01: Beschreibende Statistik, Mittelwert, Modus und Median"
+183;ALiSe_Ma-L02;"Ma-L02: Elementare Wahrscheinlichkeitsbegriffe (rel. und abs. Häufigkeiten, Wahrscheinlichkeit)"
+184;ALiSe_Ma-L03;"Ma-L03: Erwartungswert, Varianz und Standardabweichung von Zufallsgrößen"
+185;ALiSe_Ma-L04;Ma-L04: Urnenmodell und Zählverfahren
+186;ALiSe_Ma-L05;Ma-L05: Laplace-Wahrscheinlichkeit und Laplace-Experiment
+187;ALiSe_Ma-L06;Ma-L06: Binomialverteilung und Kenngrößen
+188;ALiSe_Ma-L07;Ma-L07: Normalverteilung und Kenngrößen
+189;ALiSe_Ma-L08;Ma-L08: bedingte Wahrscheinlichkeiten
+190;ALiSe_Ma-L09;Ma-L09: stochastische Unabhängigkeit
+191;ALiSe_Ma-L10;Ma-L10: Satz von Bayes
+192;ALiSe_Ma-L11;Ma-L11: Gesetz der großen Zahlen
+193;ALiSe_Ma-L12;Ma-L12: diskrete Zufallsgrößen
+194;ALiSe_Ma-L13;Ma-L13: Wahrscheinlichkeitsverteilung
+195;ALiSe_Ma-L14;Ma-L14: Hypothesen-Test
