@@ -5,9 +5,9 @@
     ],
     [
       "questions",
-      "itemparams",
+      "catquizItemparams",
       "courses",
-      "localdata"
+      "catquizTestsettings"
     ]
   ],
   "plugins": {
@@ -26,8 +26,8 @@
   "questions": {
     "path": "questions"
   },
-  "itemparams": {
-    "path": "itemparams",
+  "catquizItemparams": {
+    "path": "catquizItemparams",
     "matcher": {
       "name": "\\local_catquiz\\importer\\testitemimporter",
       "delimiter_name": "semicolon",
@@ -44,8 +44,8 @@
       "key": "catquiz_courses_"
     }]
   },
-  "localdata": {
-    "path": "localdata",
+  "catquizTestsettings": {
+    "path": "catquizTestsettings",
     "translator": {
       "sql": "SELECT aq.id as componentid, aq.course as courseid, aq.name as name FROM {adaptivequiz} aq WHERE aq.id = :componentid",
       "delimiter": ";",
