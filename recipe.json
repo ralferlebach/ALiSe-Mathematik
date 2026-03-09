@@ -4,9 +4,9 @@
       "plugins"
     ],
     [
+      "courses",
       "questions",
       "catquizItemparams",
-      "courses",
       "catquizTestsettings"
     ]
   ],
@@ -47,12 +47,15 @@
   "catquizTestsettings": {
     "path": "catquizTestsettings",
     "translator": {
-      "sql": "SELECT aq.id as componentid, aq.course as courseid, aq.name as name FROM {adaptivequiz} aq WHERE aq.id = :componentid",
+      "sqlpattern": "mod_adaptive",
       "delimiter": ";",
       "line_break": "\n",
       "catscalename": "ALiSe Mathematik",
       "changingcolumn": {
         "courseid": {
+          "nested": false
+        },
+        "contextid": {
           "nested": false
         },
         "componentid": {
