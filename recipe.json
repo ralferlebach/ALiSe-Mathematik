@@ -4,9 +4,9 @@
       "plugins"
     ],
     [
-      "courses",
       "questions",
       "catquizItemparams",
+      "courses",
       "catquizTestsettings"
     ]
   ],
